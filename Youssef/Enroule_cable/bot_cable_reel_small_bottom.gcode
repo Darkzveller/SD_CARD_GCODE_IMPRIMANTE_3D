@@ -12,7 +12,7 @@
 ;TARGET_MACHINE.NAME:Ultimaker 2+
 ;Generated with Cura_SteamEngine 5.10.0
 G0 F3000 Y50 ;avoid prime blob
-M104 S230 ; Régler la température de l'extrudeur à 230°C
+M207 S10.0 F1800 ; Rétraction à 10 mm, 30 mm/s
 M140 S58 ; Régle la température du plateau à 57°C
 M42 P8 S255 ; Allume les LED à pleine 100%
 M82 ;absolute extrusion mode
